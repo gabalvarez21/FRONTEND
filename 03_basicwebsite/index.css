@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.logo {
+    border-radius: 35px;
+}
+
+.nav-header {
+    border: solid;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    display: flexbox;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    margin: -0px;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+header {
+    justify-items: center;
+}
+
+.nav li {
+    display: inline-flex;
+    align-items: start;
+    font-weight: bold;
+}
