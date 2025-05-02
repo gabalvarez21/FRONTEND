@@ -1,18 +1,21 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
+    justify-items: center;
 }
 
 .logo {
     border-radius: 35px;
+    width: 60px;
 }
 
 .nav-header {
-    border: solid;
+    border: 2px, solid, #3b3b3e;
     /* justify-content: center; */
     align-items: center;
     padding: 20px;
     display: flexbox;
+    width: 60%;
 }
 
 nav {
@@ -26,7 +29,12 @@ nav ul {
 }
 
 a:link {
-    color: blueviolet;
+    color: #ad169f;
+}
+
+a:hover {
+
+    color: #3b3b3e;
 }
 
 header {
@@ -37,4 +45,18 @@ header {
     display: inline-flex;
     align-items: start;
     font-weight: bold;
+}
+
+main {
+    justify-items: center;
+}
+
+.content {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%; */
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    
 }
