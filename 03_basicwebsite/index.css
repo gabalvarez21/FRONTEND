@@ -1,31 +1,35 @@
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Tipo de letra */
+.rubik-variable {
+    font-family: "Rubik";
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+
+/* Estilos de etiquetas  */
+* {
+    font-family: 'Rubik';
+}
+
+main {
     justify-items: center;
 }
 
-.logo {
-    border-radius: 35px;
-    width: 60px;
-}
-
-.nav-header {
-    border: 2px, solid, #3b3b3e;
-    /* justify-content: center; */
-    align-items: center;
-    padding: 20px;
-    display: flexbox;
-    width: 60%;
+header {
+    justify-items: center;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-
 }
 
-nav ul {
-    margin: -0px;
+a {
+    color: #ad169f;
+    font-weight: 600;
 }
 
 a:link {
@@ -33,30 +37,87 @@ a:link {
 }
 
 a:hover {
-
     color: #3b3b3e;
 }
 
-header {
-    justify-items: center;
+cite {
+    color: #bcbcbc;
+}
+
+footer {
+    padding: 20px;
+    font-weight: 600;
+}
+
+
+/* Estilos por clases */
+.logo {
+    border-radius: 35px;
+    width: 60px;
+}
+
+.nav-header {
+    border: 3px, solid, #3b3b3e;
+    padding: 20px;
+    margin-bottom: -10px;
 }
 
 .nav li {
     display: inline-flex;
-    align-items: start;
-    font-weight: bold;
-}
-
-main {
-    justify-items: center;
+    width: 100px;
 }
 
 .content {
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 90%; */
-    width: 60%;
-    display: flex;
+    justify-items: center;
+    gap: 120px;
+    margin: 25px;
+    width: 75%;
+}
+
+.projects {
+    font-size: large;
+    font-weight: 600;
+}
+
+.experience p {
+    margin-top: -15px;
+}
+
+.opensource {
+    margin-top: 15%;
+}
+
+.opensource p {
+    margin-top: -15px;
+}
+
+.education h2 {
+    margin-bottom: 35px;
+}
+
+.education p {
+    margin-top: -15px;
+}
+
+.reviews {
+    margin: 50px;
+    width: 69%;
     justify-content: space-around;
-    
+}
+
+.reviews div {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.reviews div div {
+    background-color: #FFFAFA;
+    justify-content: center;
+    border: 2px solid #3b3b3e;
+    border-radius: 30px;
+    display: grid;
+    padding: 0 15px 10px 20px;
 }
