@@ -44,6 +44,14 @@ cite {
     color: #bcbcbc;
 }
 
+input,
+textarea {
+    border-radius: 15px;
+    border: 1px solid #3b3b3e;
+    padding: 10px;
+    font-size: medium;
+}
+
 footer {
     padding: 20px;
     font-weight: 600;
@@ -120,4 +128,78 @@ footer {
     border-radius: 30px;
     display: grid;
     padding: 0 15px 10px 20px;
+}
+
+.pro-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 50px;
+}
+
+.pro-container div {
+    border: 2px solid #3b3b3e;
+    ;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background-color: #FFFAFA;
+}
+
+.pro-container div:hover {
+    background: #000000;
+    background: linear-gradient(169deg, rgba(0, 0, 0, 1) 0%, rgba(173, 22, 159, 1) 48%, rgba(240, 201, 237, 1) 100%);
+    color: white;
+    transform: scale(1.05);
+    /* Aumenta el tamaño al 120% al pasar el cursor */
+    transition: transform 0.3s ease;
+    /* Transición suave */
+    border: 3px solid #3b3b3e;
+}
+
+.title {
+    margin: 50px 0 0 0;
+}
+
+.link a:link {
+    color: #3b3b3e;
+}
+
+.form {
+    width: 1000px;
+    border: 2px solid #3b3b3e;
+    border-radius: 35px;
+    margin: 50px;
+}
+
+.form-div {
+    display: grid;
+    margin: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.button button {
+    color: white;
+    background: rgba(173, 22, 159, 1);
+    font-size: large;
+    font-weight: 600;
+    border: 2px solid #3b3b3e;
+    border-radius: 35px;
+    width: 15%;
+    height: 30px;
+}
+
+.button button:hover {
+    background: #000000;
+    background: linear-gradient(169deg, rgba(0, 0, 0, 1) 0%, rgba(173, 22, 159, 1) 48%, rgba(240, 201, 237, 1) 100%);
 }
